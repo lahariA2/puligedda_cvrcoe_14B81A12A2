@@ -1,4 +1,4 @@
-package studentgroup;
+package src;
 
 import java.util.Date;
 
