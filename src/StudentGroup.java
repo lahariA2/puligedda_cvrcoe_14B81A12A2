@@ -13,7 +13,7 @@ import java.util.Date;
  * DO NOT PUT any classes into packages
  *
  */
-public class StudentGroup implements StudentArrayOperation extends Exception {
+public class StudentGroup implements StudentArrayOperation{
 
 	private Student[] students;
         private int length;
@@ -235,8 +235,7 @@ public class StudentGroup implements StudentArrayOperation extends Exception {
                         removeFromIndex(i);
                         break;
                     }
-                     if(i==length  && students[i]!=student)
-                        throw new IllegalArgumentException("Student not exist");
+                  
                 }
 		}
 		catch(Exception e)
